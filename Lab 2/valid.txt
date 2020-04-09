@@ -1,0 +1,13 @@
+[or(p,q), c]. 
+c.
+[
+[1, or(p,q), premise],
+[2, c, premise],
+[
+[3, p, assumption],
+[4, c, copy(2)]],
+[
+[5, q, assumption],
+[6, c, copy(2)]],
+[7, c, orel(4,6,3,5,1)]
+].

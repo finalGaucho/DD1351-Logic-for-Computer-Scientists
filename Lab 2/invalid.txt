@@ -1,0 +1,5 @@
+[p]. 
+neg(p). 
+[[1, p, premise],
+[2, neg(p), negnegint(1)]
+].
